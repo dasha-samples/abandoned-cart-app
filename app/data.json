@@ -1,0 +1,443 @@
+{
+  "version": "v2",
+  "intents": {
+    "yes": {
+      "includes": [
+        "yes",
+        "correct",
+        "sure",
+        "absolutely",
+        "yes siree bob",
+        "right",
+        "yep",
+        "you got it",
+        "I would",
+        "yeah",
+        "I would",
+        "I'd like that",
+        "I wouldn't mind",
+        "I would not mind",
+        "sure thing",
+        "yeah",
+        "yea",
+        "certainly",
+        "absolutely",
+        "totally",
+        "mhm"
+      ],
+      "excludes": [
+        "fuck off"
+      ]
+    },
+    "no": {
+      "includes": [
+        "no",
+        "definitely not",
+        "wrong",
+        "incorrect",
+        "I do not",
+        "I don't",
+        "I would not",
+        "I wouldn't",
+        "nope",
+        "no, I'm okay",
+        "not right now",
+        "not this time",
+        "nah",
+        "not this moment",
+        "not now"
+      ],
+      "excludes": [
+        "yes"
+      ]
+    },
+    "price_too_high": {
+      "includes": [
+        "cost too much",
+        "price was too high",
+        "the price was too high",
+        "way too high of a price",
+        "cost was too high",
+        "price was too much",
+        "pay that much",
+        "pay so much",
+        "too expensive",
+        "expensive",
+        "price was a deal breaker",
+        "cost too much",
+        "cost way too much",
+        "costs a lot",
+        "couldn't afford",
+        "couldn't afford at this price"
+      ]
+    },
+    "free_delivery_sounds_good": {
+      "includes": [
+        "free delivery sounds good",
+        "free delivery sounds lovely",
+        "free delivery sounds fantastic",
+        "free delivery sounds awesome",
+        "free delivery sounds great",
+        "love free delivery",
+        "wouldn't mind a free delivery",
+        "like not having to pay for the delivery",
+        "love not having to pay for the delivery"
+      ]
+    },
+    "found_it_elsewhere": {
+      "includes": [
+        "found it elsewhere",
+        "found another place",
+        "found a better place",
+        "found a new place",
+        "found another website",
+        "found a new website",
+        "found a better site",
+        "found a better company",
+        "found it at another company",
+        "founding it at another website"
+      ]
+    },
+    "nvm": {
+      "includes": [
+        "never mind",
+        "nvm",
+        "forget it",
+        "changed my mind",
+        "it's nothing",
+        "had a change of heart",
+        "change of heart",
+        "don't want this",
+        "don't want it",
+        "don't need it"
+      ]
+    },
+    "thank_you": {
+      "includes": [
+        "thanks",
+        "thank you",
+        "appreciate it",
+        "appreciate your offer",
+        "gracias",
+        "thanks a lot",
+        "no thank you",
+        "nothing thank you",
+        "that's it thank you"
+      ]
+    },
+    "cheaper_elsewhere": {
+      "includes": [
+        "it was cheaper elsewhere",
+        "cheaper elsewhere",
+        "cost less at another place",
+        "found a cheaper place",
+        "cheaper place",
+        "cheaper",
+        "cost less",
+        "cost me less",
+        "half the price",
+        "cheaper option"
+      ]
+    },
+    "something_else_to_ask": {
+      "includes": [
+        "want to ask something",
+        "something else to ask",
+        "I have a question",
+        "could you tell me",
+        "ask something else",
+        "more questions",
+        "a couple of questions",
+        "something to ask",
+        "ask something"
+      ]
+    },
+    "free_delivery_elsewhere": {
+      "includes": [
+        "found a place with a free delivery",
+        "the delivery was free on another website",
+        "another website had a free delivery",
+        "free delivery elsewhere",
+        "found another website that had a free delivery"
+      ]
+    },
+    "my_country_delivery": {
+      "includes": [
+        "you don't deliver to my country",
+        "don't do delivery to my country",
+        "don't have my country delivery option",
+        "my country isn't on your list of the countries you deliver to",
+        "you don't ship to my country",
+        "there's no shipping to my country",
+        "you don't ship anything to the country I live in",
+        "you don't deliver to the country I live in"
+      ]
+    },
+    "delivery_price_too_high": {
+      "includes": [
+        "delivery price was too high",
+        "delivery price is too high",
+        "delivery price is too much",
+        "delivery costs a lot",
+        "didn't want to pay so much for the delivery",
+        "delivery cost too much",
+        "delivery cost is too high"
+      ]
+    },
+    "more_options_elsewhere": {
+      "includes": [
+        "there were more options on",
+        "more options at",
+        "place with more options",
+        "higher variety",
+        "website with more options",
+        "place with more options",
+        "with more stuff",
+        "with more things",
+        "with more models"
+      ]
+    },
+    "another_option_elsewhere": {
+      "includes": [
+        "found another model on a different website",
+        "found another option at another place",
+        "another option elsewhere",
+        "another model at a different place",
+        "another company had what I needed",
+        "a different website has what I need",
+        "found another model elsewhere",
+        "found something better on another website"
+      ]
+    },
+    "purchased_elsewhere": {
+      "includes": [
+        "bought it on another website",
+        "bought it from another place",
+        "bought it at another place",
+        "got it from a different website",
+        "got it elsewhere",
+        "purchased it from a different site",
+        "purchased it elsewhere"
+      ]
+    },
+    "didnt_purchase_elsewhere": {
+      "includes": [
+        "didn't buy it",
+        "haven't bought it",
+        "haven't purchased it",
+        "didn't get a chance to buy",
+        "didn't buy the laptop",
+        "not buying it",
+        "not getting it",
+        "ended up not purchasing it"
+      ]
+    },
+    "need_another_thing": {
+      "includes": [
+        "need another thing",
+        "need something else",
+        "want something else",
+        "want something different",
+        "want a different thing"
+      ]
+    },
+    "another_model": {
+      "includes": [
+        "another model",
+        "looking for another model",
+        "looking for a different model",
+        "different model of the laptop",
+        "change the model",
+        "another laptop model"
+      ]
+    },
+    "unsure": {
+      "includes": [
+        "not quite sure",
+        "unsure",
+        "I don't know",
+        "not quite sure",
+        "not too certain",
+        "uncertain",
+        "not sure",
+        "I don't quite know",
+        "don't know for sure"
+      ]
+    },
+    "models_available": {
+      "includes": [
+        "models available",
+        "kind of models you have",
+        "what model types you have",
+        "model types",
+        "kind of models",
+        "model kinds",
+        "any other models",
+        "other models"
+      ]
+    },
+    "sounds_good": {
+      "includes": [
+        "sounds good",
+        "sounds great",
+        "sounds awesome",
+        "sounds wonderful",
+        "sounds fantastic",
+        "sounds fabulous",
+        "sounds fine",
+        "sounds okay",
+        "sounds OK",
+        "doesn't sound bad",
+        "I love it",
+        "i love",
+        "I like",
+        "like",
+        "I like it"
+      ]
+    },
+    "sounds_bad": {
+      "includes": [
+        "doesn't sound good",
+        "sounds bad",
+        "sounds horrible",
+        "I don't like it",
+        "I hate it",
+        "I don't like it",
+        "not a fan",
+        "dislike"
+      ]
+    },
+    "need_to_consider": {
+      "includes": [
+        "need to think about it",
+        "give it some thought",
+        "need to consider",
+        "think about it",
+        "think some more about it",
+        "I'll need to give it some thought"
+      ]
+    },
+    "waiting_for_salary": {
+      "includes": [
+        "waiting for my paycheck",
+        "waiting for pay check",
+        "expecting my salary",
+        "waiting for salary",
+        "expecting my paycheck",
+        "haven't got my salary",
+        "haven't received my paycheck",
+        "didn't get paid"
+      ]
+    },
+    "not_enough_money": {
+      "includes": [
+        "don't have enough money",
+        "not enough money",
+        "the money I have right now isn't enough",
+        "don't have enough in my bank account",
+        "don't have enough in my account",
+        "didn't have enough",
+        "couldn't afford"
+      ]
+    },
+    "agreed_installment": {
+      "includes": [
+        "I would love to pay in installments",
+        "installments sound nice",
+        "installments work great for me",
+        "installments work",
+        "paying in intallments sounds good",
+        "paying in bits works for me"
+      ]
+    },
+    "agreed_trade_in": {
+      "includes": [
+        "I would love to trade in",
+        "trade in sound nice",
+        "trade in works great for me",
+        "trading in works",
+        "i can bring my old laptop for the trade in",
+        "I will trade in my laptop"
+      ]
+    },
+    "was_just_browsing": {
+      "includes": [
+        "was just browsing",
+        "considering my options",
+        "checking where it's best",
+        "browsing the website",
+        "browsing"
+      ]
+    }
+  },
+  "entities": {
+    "laptop_model": {
+      "open_set": true,
+      "values": [
+        {
+          "value": "A11",
+          "synonyms": [
+            "A 11",
+            "A eleven",
+            "the A 11 model",
+            "A11 model",
+            "model A11",
+            "2011 model",
+            "year two thousand eleven model"
+          ]
+        },
+        {
+          "value": "A12",
+          "synonyms": [
+            "A 12",
+            "A twelve",
+            "A twelve model",
+            "model from two thousand twelve",
+            "the 2012 model",
+            "year 2012 model"
+          ]
+        },
+        {
+          "value": "A13",
+          "synonyms": [
+            "A 13",
+            "A thirteen",
+            "A thirteen model",
+            "model from two thousand thirteen",
+            "the 2013 model",
+            "year 2013 model"
+          ]
+        },
+        {
+          "value": "A14",
+          "synonyms": [
+            "A 14",
+            "A fourteen",
+            "A fourteen model",
+            "model from two thousand fourteen",
+            "the 2014 model",
+            "year 2014 model"
+          ]
+        },
+        {
+          "value": "A15",
+          "synonyms": [
+            "A 15",
+            "A fifteen",
+            "A fifteen model",
+            "model from two thousand fifteen",
+            "two thousand fifteen model",
+            "the 2015 model",
+            "year 2015 model"
+          ]
+        }
+      ],
+      "includes": [
+        "I'm looking for the (A 14)[laptop_model] model",
+        "I'd like an (A twenty)[laptop_model] model",
+        "I want to get an (A seventeen)[laptop_model] laptop model",
+        "buy the (two thousand fifteen model)[laptop_model]"
+      ]
+    }
+  }
+}
